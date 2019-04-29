@@ -100,13 +100,16 @@ f(n) = 3n + 3
 
 &nbsp;
 
-**12. Desenvolva o pseudocódigo do algoritmo CONTAGEM_IMPARES, que realiza a contagem de números impares de um vetor. O algoritmo recebe o vetor V e tem como saída o resultado. Identifique a sua função de complexidade de tempo. *
+**12. Desenvolva o pseudocódigo do algoritmo CONTAGEM_IMPARES, que realiza a contagem de números impares de um vetor. O algoritmo recebe o vetor V e tem como saída o resultado. Identifique a sua função de complexidade de tempo.**
 
 ![](https://raw.githubusercontent.com/luizaliebl/AnaliseAlgoritmos/master/Imagens/12.PNG)
 
 f(n) = c1 * 1 + c2 * 1 + c3 * n + c4 * n + c5 * n + c6 * n + c7 * 1
+&nbsp;
 f(n) = 1 * 1 + 1 * 1 + 1 * n + 1 * n + 1 * n + 1 * n + 1 * 1
+&nbsp;
 f(n) = 1 + 1 + n + n + n + n + 1
+&nbsp;
 f(n) = 4n + 3
 
 &nbsp;
@@ -118,6 +121,7 @@ f(n) = 4n + 3
 ![](https://raw.githubusercontent.com/luizaliebl/AnaliseAlgoritmos/master/Imagens/13.PNG)
 
 f(n) = 1 + 1 + n + n * n + n * n + n * n + n + 1
+&nbsp;
 f(n) = 3n² + 2n + 3
 
 &nbsp;
@@ -129,6 +133,7 @@ f(n) = 3n² + 2n + 3
 ![](https://raw.githubusercontent.com/luizaliebl/AnaliseAlgoritmos/master/Imagens/14.PNG)
 
 f(n) = 1 + n + n² + n² + n² + n² + n + 1
+&nbsp;
 f(n) = 4n² + 2n + 2
 
 &nbsp;
@@ -146,17 +151,22 @@ A análise assintótica é um método de descrever o comportamento de limites, c
 **16. Qual é o processo da análise assintótica? Crie um exemplo.**
 
 1- *f*(n) = 6n3 + 2n2 + 20n + 45
+&nbsp;
 2- Identificar o componente de maior ordem
+&nbsp;
 3- 6n³
+&nbsp;
 4- Ignorar os coeficientes
+&nbsp;
 5- n³
+&nbsp;
 Dizemos que f é, assintoticamente, no máximo, n³.
 
 &nbsp;
 
 &nbsp;
 
-**17. O que é notação assintótica?*
+**17. O que é notação assintótica?**
 
 A notação assintótica é para descrever o relacionamento é *f(n) = O(n³)*.
 
