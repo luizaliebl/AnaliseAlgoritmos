@@ -42,10 +42,57 @@ A complexidade de tempo quantifica a porção de tempo tomada por um algoritmo p
 
 &nbsp;
 
-**6. Dado dois algoritmos A e B com as complexidades de tempo respectivamente _f_1 e _f_2, qual é o melhor algoritmo? O que indica qual é o melhor algoritmo?**
+**6. Dado dois algoritmos A e B com as complexidades de tempo respectivamente _f_ 1 e _f_ 2, qual é o melhor algoritmo? O que indica qual é o melhor algoritmo?**
 
-O melhor algoritmo é o _f_1, pois tem a entrada menor. 
+O melhor algoritmo é o _f_ 1, pois tem a entrada menor. 
+
+&nbsp;
+
+&nbsp;
+
+**7. Em uma função de complexidade, o que representa o termo _n_ ?**
+
+O termo _n_ representa o tamanho da entrada. 
 
 &nbsp;
 
 &nbsp;
+
+**8. Quais são as operações primitivas de um algoritmo?**
+
+Atribuição de valores a variáveis; Chamadas de métodos; Operações aritméticas; Comparação de dois números; Acesso a um arranjo; Seguimento de uma referência para um objeto; Retorno de um método.
+
+&nbsp;
+
+&nbsp;
+
+**9. Qual é o valor de uma operação primitiva de um algoritmo?**
+
+Para cada operação primitiva se atribui o valor 1. 
+
+&nbsp;
+
+&nbsp;
+
+**10. Desenvolva o pseudocódigo do algoritmo SOMA, que realiza a soma de dois números inteiros recebidos por parâmetro e tem como saída a resultado da operação. Identifique a sua função de complexidade de tempo.**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
