@@ -38,3 +38,14 @@ A medição de tempo é feita através da quantidade de passos que o algoritmo p
 
 A complexidade de tempo quantifica a porção de tempo tomada por um algoritmo para rodar em função do tamanho da entrada do problema.
 
+&nbsp;
+
+&nbsp;
+
+**6. Dado dois algoritmos A e B com as complexidades de tempo respectivamente _f_1 e _f_2, qual é o melhor algoritmo? O que indica qual é o melhor algoritmo?**
+
+O melhor algoritmo é o _f_1, pois tem a entrada menor. 
+
+&nbsp;
+
+&nbsp;
