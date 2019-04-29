@@ -181,6 +181,10 @@ Formalmente definimos como: Onde R+ é o conjunto dos reais não negativos.
 
 **23. Crie um gráfico explicando a notação o-pequeno?**
 
+![](https://raw.githubusercontent.com/luizaliebl/AnaliseAlgoritmos/master/Imagens/23.PNG)
+
+&nbsp;
+
 **24. Passe a notação O-Grande e o-pequeno as funções abaixo:**
 
 **A) F(n) = n + 1**
