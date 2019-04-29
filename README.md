@@ -189,19 +189,105 @@ Formalmente definimos como: Onde R+ é o conjunto dos reais não negativos.
 
 **A) F(n) = n + 1**
 
+O(n)
+
+o(n²)
+
+&nbsp;
+
 **B) F(n) = 8**
 
-**C) F(n) = 2n 2 − 1**
+O(1)
+
+o(n)
+
+&nbsp;
+
+**C) F(n) = 2n² − 1**
+
+O(n²)
+
+o(2^n)
+
+&nbsp;
 
 **D) F(n) = nlogn**
 
+O(logn)
+
+o(n²)
+
+&nbsp;
+
 **E) F(n) = 3n! + 2n**
 
-**F) F(n) = 3n 3 + 2n 2 + 4n + 6**
+O(n!)
 
-**G) F(n) = 5n + 11**
+o(n!²)
+
+&nbsp;
+
+**F) F(n) = 3n³ + 2n² + 4n + 6**
+
+O(n³)
+
+o(n!)
+
+&nbsp;
+
+**G) F(n) = 5^n + 11**
+
+O(5^n)
+
+o(n * n!)
+
+&nbsp;
 
 **H) F(n) = 3logn**
 
+O(logn)
+
+o(n²)
+
+&nbsp;
+
 **25. Identifique o O-Grande dos algoritmos desenvolvidos nos problemas 10 até 14.**
+
+10- f(n)=2
+
+O(1)
+
+o(n)
+
+&nbsp;
+
+11- f(n)=3n+3
+
+O(m)
+
+o(nlog(n))
+
+&nbsp;
+
+12- f(n)=4n+3
+
+O(n)
+
+o(n²)
+
+&nbsp;
+
+13- f(n)=3n² + 2n + 3
+
+O(n²)
+
+o(n!)
+
+&nbsp;
+
+14- f(n)=4n² + 2n + 2
+
+O(n²)
+
+o(2^n)
 
