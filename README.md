@@ -8,13 +8,9 @@ As duas características mais comuns são: Tempo e consumo de memória, respecti
 
 &nbsp;
 
-&nbsp;
-
 **2. Por que a medida de tempo em segundos não representa qualificadamente o tempo de execução de um algoritmo?**
 
 Pois a medida de tempo em segundos não é uma medida estável e de qualidade.
-
-&nbsp;
 
 &nbsp;
 
@@ -24,13 +20,9 @@ A medição de tempo é feita através da quantidade de passos que o algoritmo p
 
 &nbsp;
 
-&nbsp;
-
 **4. Na análise de algoritmos, qual é o valor da base da função logarítmica e exponencial? Por que é escolhido este valor?**
 
 2, pois o algoritmo que tiver a função com o menor valor representa uma solução melhor, ou seja, o algoritmo precisa de menos tempo ou passos para resolver o determinado problema.
-
-&nbsp;
 
 &nbsp;
 
@@ -40,13 +32,9 @@ A complexidade de tempo quantifica a porção de tempo tomada por um algoritmo p
 
 &nbsp;
 
-&nbsp;
-
 **6. Dado dois algoritmos A e B com as complexidades de tempo respectivamente *f*1 e *f*2, qual é o melhor algoritmo? O que indica qual é o melhor algoritmo?**
 
 O melhor algoritmo é o *f*1, pois tem a entrada menor. 
-
-&nbsp;
 
 &nbsp;
 
@@ -56,21 +44,15 @@ O termo *n* representa o tamanho da entrada.
 
 &nbsp;
 
-&nbsp;
-
 **8. Quais são as operações primitivas de um algoritmo?**
 
 Atribuição de valores a variáveis; Chamadas de métodos; Operações aritméticas; Comparação de dois números; Acesso a um arranjo; Seguimento de uma referência para um objeto; Retorno de um método.
 
 &nbsp;
 
-&nbsp;
-
 **9. Qual é o valor de uma operação primitiva de um algoritmo?**
 
 Para cada operação primitiva se atribui o valor 1. 
-
-&nbsp;
 
 &nbsp;
 
@@ -88,8 +70,6 @@ f(n) = 2
 
 &nbsp;
 
-&nbsp;
-
 **11. Desenvolva o pseudocódigo do algoritmo SOMA_VETOR, que realiza a soma de todos os elementos de um vetor. O algoritmo recebe o vetor V e tem como saída o resultado. Identifique a sua função de complexidade de tempo.**
 
 ![](https://raw.githubusercontent.com/luizaliebl/AnaliseAlgoritmos/master/Imagens/11.PNG)
@@ -101,8 +81,6 @@ f(n) = 1 * 1 + 1 * 1 + 1 * n + 1 * n + 1 * n + 1 * 1
 f(n) = 1 + 1 + n + n + n + 1
 
 f(n) = 3n + 3
-
-&nbsp;
 
 &nbsp;
 
@@ -120,8 +98,6 @@ f(n) = 4n + 3
 
 &nbsp;
 
-&nbsp;
-
 **13. Desenvolva o pseudocódigo do algoritmo SOMA_MATRIZ, que realiza a soma de todos os elementos de uma matriz. O algoritmo recebe a matriz M e tem como saída o resultado. Identifique a sua função de complexidade de tempo.**
 
 ![](https://raw.githubusercontent.com/luizaliebl/AnaliseAlgoritmos/master/Imagens/13.PNG)
@@ -129,8 +105,6 @@ f(n) = 4n + 3
 f(n) = 1 + 1 + n + n * n + n * n + n * n + n + 1
 
 f(n) = 3n² + 2n + 3
-
-&nbsp;
 
 &nbsp;
 
@@ -144,13 +118,9 @@ f(n) = 4n² + 2n + 2
 
 &nbsp;
 
-&nbsp;
-
 **15. O que é análise assintótica? Qual é o seu objetivo?**
 
 A análise assintótica é um método de descrever o comportamento de limites, com objetivo de compreender o tempo de execução para entradas grandes. 
-
-&nbsp;
 
 &nbsp;
 
@@ -170,13 +140,9 @@ Dizemos que f é, assintoticamente, no máximo, n³.
 
 &nbsp;
 
-&nbsp;
-
 **17. O que é notação assintótica?**
 
 A notação assintótica é para descrever o relacionamento é *f(n) = O(n³)*.
-
-&nbsp;
 
 &nbsp;
 
@@ -186,13 +152,9 @@ Notação O-Grande diz que uma função é menor que ou igual a outra função g
 
 &nbsp;
 
-&nbsp;
-
 **19. Qual é a definição formal da notação O-Grande?**
 
 Formalmente definimos como: Onde R+ é o conjunto dos reais não negativos.
-
-&nbsp;
 
 &nbsp;
 
@@ -204,13 +166,9 @@ n0 = 4
 
 &nbsp;
 
-&nbsp;
-
 **21. O que é a notação o-pequeno ou Little-Oh?**
 
 Notação o-pequeno diz que uma função é menor que a outra função g(n). Ou seja, f é dominada por g assintoticamente.
-
-&nbsp;
 
 &nbsp;
 
@@ -220,19 +178,25 @@ Formalmente definimos como: Onde R+ é o conjunto dos reais não negativos.
 
 &nbsp;
 
-&nbsp;
 
 **23. Crie um gráfico explicando a notação o-pequeno?**
 
 **24. Passe a notação O-Grande e o-pequeno as funções abaixo:**
 
 **A) F(n) = n + 1**
+
 **B) F(n) = 8**
+
 **C) F(n) = 2n 2 − 1**
+
 **D) F(n) = nlogn**
+
 **E) F(n) = 3n! + 2n**
+
 **F) F(n) = 3n 3 + 2n 2 + 4n + 6**
+
 **G) F(n) = 5n + 11**
+
 **H) F(n) = 3logn**
 
 **25. Identifique o O-Grande dos algoritmos desenvolvidos nos problemas 10 até 14.**
